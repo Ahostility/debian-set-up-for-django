@@ -1,0 +1,18 @@
+sudo apt update
+sudo apt install nginx
+sudo ufw app list
+sudo ufw allow 'nginx http'
+sudo ufw status
+systemctl status nginx
+curl -4 icanhazip.com
+
+sudo systemctl stop
+sudo systemctl restart
+sudo sudo systemctl start
+sudo systemctl reload nginx
+
+sudo apt-get install screen
+sudo apt-get upgrade python3
+sudo apt install python3-pip
+sudo apt install proftpd
+sudo systemctl start proftpd
